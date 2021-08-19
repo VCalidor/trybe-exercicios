@@ -1,0 +1,21 @@
+
+h1 {font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+}
+ul {
+    background-color: purple; 
+    }
+body {
+    font-size: 16px;
+}
+.list_style {
+    background-color: red;
+    font-style: italic;
+    line-height: 2;
+    text-decoration: underline;
+}
+#paragrafo {
+    font-weight: 600;
+    font-size: 3em;
+}
