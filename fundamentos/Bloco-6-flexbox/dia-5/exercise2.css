@@ -1,6 +1,52 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 3%;
+}
+
+header {
+  background-color: purple;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+  margin: 15px 15px 0;
+  font-size: 25px;
+  align-self: center;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-inline-start: 0;
+  margin: 5px;
+}
+
+header ul li {
+  justify-content: center;
+  flex-basis: 50px;
+  color: white;
+  opacity: 0.8;
+}
+
+header ul li:hover {
+  opacity: 1;
+}
+
+aside {
+  margin-left: 10px;
+}
+
+aside h2 {
+  margin: 10px 0 0;
+}
