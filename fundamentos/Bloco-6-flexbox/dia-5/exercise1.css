@@ -1,0 +1,58 @@
+body {
+  font-size: 20px;
+  margin: 3%;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  margin-block-end: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 660px) {
+
+  body {
+    background-color: red;
+    font-size: 18px;
+    margin: 7%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    margin-top: 20px;
+    margin-right: 10%;
+  }
+
+  main section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: green;
+    font-size: 18px;
+    margin: 3%;
+    max-width: 90%;
+    text-align: center;
+  }
+}
